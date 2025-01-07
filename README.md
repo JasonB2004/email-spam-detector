@@ -1,14 +1,12 @@
-# Assignment 01 - Spam Detector
+# Email Spam Detector
 
 ## Project Information
 
 Spam Detector is a project aimed at filtering out spam emails using a machine learning-based approach. The program utilizes a unigram [1] approach where each word in the email is counted and associated with whether the message is spam or not. By training the system on a dataset of emails, it learns to recognize patterns and calculate probabilities based on word frequencies [2].
 
-### Group Members
-- Adlene Oudahmane
-- Abdul Rahim Mohsin
-- Jason Badwal
-- Rania Rejdal
+### Model Used
+- Naive Bayes Spam Filtering: This is a probabilistic model that computes the likelihood of an email being spam based on the frequency of words it contains.
+- Bag of Words Model: A text representation model that counts how many times each word occurs in the email, without considering the order of the words.
 
 ![DashBoardScreenshot](dashboardScreenshot.png)
 
